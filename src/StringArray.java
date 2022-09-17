@@ -232,7 +232,7 @@ public class StringArray implements Iterable<String> {
     }
 
     private class StringArrayIterator implements Iterator<String> {
-        int currIndex = 0;
+        private int currIndex = 0;
 
         @Override
         public boolean hasNext() {

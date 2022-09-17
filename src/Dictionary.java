@@ -15,6 +15,4 @@ public class Dictionary {
     public boolean isInDictionary(String word) {
         return this.validWords.isInStringArray(word);
     }
-
-
 }
