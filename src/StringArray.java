@@ -236,7 +236,7 @@ public class StringArray implements Iterable<String> {
 
         @Override
         public boolean hasNext() {
-            return currIndex < count;
+            return this.currIndex < count;
         }
 
         @Override
